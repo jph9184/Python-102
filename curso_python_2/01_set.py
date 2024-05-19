@@ -13,3 +13,6 @@ print(set_types)
 
 set_from_string = set('hooooooola')
 print(set_from_string)
+
+set_from_tuples = set(('abc', 'cbv', 'as', 'abc'))
+print(set_from_tuples)
