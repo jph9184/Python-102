@@ -14,3 +14,10 @@ print(set_c)
 
 #Hacerlo con el operador &
 print(set_a & set_b)
+
+# Diferencia
+set_c = set_a.difference(set_b)
+print(set_c)
+
+#Con operador
+print(set_a - set_b)
