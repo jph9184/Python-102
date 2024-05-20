@@ -17,5 +17,8 @@ print(set_from_string)
 set_from_tuples = set(('abc', 'cbv', 'as', 'abc'))
 print(set_from_tuples)
 
+numbers = [1, 2, 3, 4, 1, 2, 4]
+set_numbers = set(numbers)
+print(set_numbers)
 
-numbers = [1,2,3,4,1,2,4]
+unique_numbers = list(set_numbers)
